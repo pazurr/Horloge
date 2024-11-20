@@ -40,42 +40,26 @@ body,html{
 }
 
 .aurore {
-    filter: sepia(0.5) brightness(1.5) contrast(1.3) hue-rotate(-20deg);
     background: linear-gradient(45deg, rgba(255, 204, 153, 1), rgba(255, 160, 122, 1), rgba(255, 223, 186, 1)); /* Ciel rosé avec touche d'orange pour l'aurore */
-    transition: background 1s ease-in-out;
 }
 
 .matin {
-   filter: sepia(0.2) brightness(1.2) contrast(1.1);
    background: linear-gradient(45deg, rgba(135, 206, 250, 1), rgba(173, 216, 230, 1), rgba(240, 248, 255, 1)); /* Ciel bleu clair, matin lumineux */
-    transition: background 1s ease-in-out;
 }
 
 .apres-midi {   
-    filter: sepia(0) brightness(1.5) contrast(1.3);
     background: linear-gradient(45deg, rgba(70, 130, 180, 1), rgba(100, 149, 237, 1), rgba(135, 206, 250, 1)); /* Ciel bleu plus profond pour l'après-midi */
-    transition: background 1s ease-in-out;
     
 }
 
 .soiree {
-    filter: sepia(0.5) brightness(0.9) contrast(1.2);
     background: linear-gradient(45deg, rgba(255, 140, 105, 1), rgba(255, 99, 71, 1), rgba(255, 160, 122, 1)); /* Ciel couchant avec tons orangés pour la soirée */
-    transition: background 1s ease-in-out;
 }
 
 .nuit {
-    filter: grayscale(1) brightness(0.5);
     background: linear-gradient(45deg, rgba(0, 0, 128, 1), rgba(25, 25, 112, 1), rgba(0, 0, 139, 1)); /* Ciel nocturne bleu foncé */
-    transition: background 1s ease-in-out;
 }
 
-.soleil {
-    background: yellow;
-    top: 50%;
-    left: -100px;
-    animation: mouvementSoleil 12s linear infinite;
-}
 
 
 

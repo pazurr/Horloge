@@ -8,12 +8,11 @@ function changeStyleBasedOnTime() {
 
     // On crée la variable sayHi qui correspond à la balise ayant l'id 'say-hi'
     let sayHi = document.getElementById('say-hi');
-    let soleil = document.getElementsByClassName('.soleil')
     //**! /!\ FIN /!\
 
     //**! ICI on veut une condition pour afficher Bonjour ou Bonsoir en fonction de l'heure de la journée */
 
-    if (currentHour > 5 && currentHour <=18){
+    if (currentHour > 5 && currentHour <= 18){
         sayHi.textContent = 'Bonjour il est !:';
          //* Entre 5h et 18h, on affiche "Bonjour !" en injectant du code dans l'id say-hi avec le code suivant :
         //* -> sayHi.textContent = 'Bonjour !';
@@ -34,14 +33,10 @@ function changeStyleBasedOnTime() {
     //**! /!\ FIN /!\
     if (currentHour > 5 && currentHour <= 8){
         element.classList.add('aurore');
-
-        // 70%
     }else if (currentHour > 8 && currentHour <= 12){
         element.classList.add('matin');
-        // 80%
     }else if(currentHour > 12 && currentHour <= 18){
         element.classList.add('apres-midi');
-        // 90%
     }else if(currentHour > 18 && currentHour <= 22){
         element.classList.add('soiree');
 
