@@ -17,7 +17,7 @@ function changeStyleBasedOnTime() {
          //* Entre 5h et 18h, on affiche "Bonjour !" en injectant du code dans l'id say-hi avec le code suivant :
         //* -> sayHi.textContent = 'Bonjour !';
         //* la variable currentHour contient l'heure actuelle
-    }else if(currentHour <= 5 && currentHour > 18){
+    }else{
         sayHi.textContent = 'Bonsoir il est !:';
            //* Entre 18h et 5h, on affiche "Bonsoir !" en injectant du code dans l'id say-hi avec le code suivant :
         //* -> sayHi.textContent = 'Bonsoir !';
