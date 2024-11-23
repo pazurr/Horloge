@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Orbitron:wght@400..900&family=Pacifico&family=Signika:wght@300..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+body,html{
+    font-family: "Orbitron", sans-serif;
+    width: 100%;
+    height: 100%;
+}
+#time-based-style {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#time-based-style img{
+  width: 400px;
+  height: auto;
+  position: relative; 
+  top: 10%;
+  filter: drop-shadow(10px 7px 10px black);
+}
+
+
+#say-hi{
+    font-size: 3rem;
+}
+#time-display {
+    font-size: 10rem;
+}
+
+#cobe{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.time{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    color: white;
+    text-align: center;
+    filter: drop-shadow(10px 7px 10px black);
+}
+
+.aurore {
+  background: linear-gradient(to bottom, #46237a, #b56491, #f2c27d);
+}
+
+.matin {
+  background: linear-gradient(to bottom, #f2c27d, #f8e8ad, #a3d5f7);
+}
+
+.apres-midi {   
+  background: linear-gradient(to bottom, #b56491, #f2a97d, #f8d48d);
+}
+
+.soiree {
+  background: linear-gradient(to bottom, #f2c27d, #6b102d, #001942);
+}
+
+.nuit {
+  background: linear-gradient(to bottom, #000428, #001942, #03071e);
+}
+
+
